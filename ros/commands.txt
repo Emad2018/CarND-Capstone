@@ -1,0 +1,14 @@
+cd /home/workspace
+cd CarND-Capstone
+pip install -r requirements.txt
+cd ros
+catkin_make
+source devel/setup.sh
+roslaunch launch/styx.launch
+
+rostopic list
+rostopic info /final_waypoints
+Type: styx_msgs/Lane
+rosmsg info styx_msgs/Lane
+
+rostopic echo /rosout | grep insert_search_expression_here
