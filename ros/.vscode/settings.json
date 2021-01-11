@@ -1,3 +1,8 @@
 {
+<<<<<<< HEAD
     "python.pythonPath": "/home/aemad/anaconda3/bin/python"
+=======
+    "python.formatting.provider": "yapf",
+    "python.pythonPath": "/usr/bin/python"
+>>>>>>> e0c9435e1228e7f77dc463584f267ed4b710f878
 }
